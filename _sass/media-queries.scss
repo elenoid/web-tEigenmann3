@@ -1,0 +1,17 @@
+@mixin resp-96{
+  @media print, screen and (min-width: 96em){
+    @content;
+  }
+}
+
+@mixin resp-md{
+  @media print, screen and (min-width: 40em){
+    @content;
+  }
+}
+
+@mixin resp-lg{
+  @media print, screen and (min-width: 64em){
+    @content;
+  }
+}

@@ -1,0 +1,179 @@
+//moddified style-main version
+.navbar.navbar-back{
+  @include resp-md{
+    justify-content: flex-end;
+    li{
+      padding: 0 1.8rem;
+    }
+  }
+}
+//moddified style-main version
+.sections-content_grid-y.style-sub-page{
+  justify-content: space-between;
+  @media(min-width: 640px){
+    height: auto;
+  }
+  @media(min-width: 640px) and (max-width: 1324px) and (min-height: 600px){
+    justify-content: flex-start;
+  }
+  @media (max-height: 840px) and (min-width: 96em){
+    height: auto;
+  }
+  .grid-x{
+    margin: -0.9375rem;
+    @media print, screen and (min-width: 64em){
+      // defines height for content (33%)
+      height: auto;
+    }
+  }
+}
+
+//moddified style-main version
+.sections-content_grid-y.style-galerie{
+  .figure-height{
+    height: calc(55% - 1.875rem);
+    background-color: #7f9db9;;
+    @include resp-96{
+      width: calc(41.66667% - 1.875rem);
+    }
+  }
+
+  .figure-width{
+    border: 1px #ddd solid;
+  }
+
+  .figure-width:hover figcaption{
+    transform: translateY(0);
+  }
+
+  .textbox-title{
+    @include resp-96{
+      width: calc(83.33333% - 1.875rem);
+    }
+  }
+
+  figcaption{
+    bottom: 0;
+    height: 100%;
+  }
+
+  img{
+    height: 83%;
+    opacity: 1;
+    @include resp-md{
+      height: 86%;
+    }
+    @include resp-lg{
+      height: 91%;
+    }
+    @include resp-96{
+      height: 89%;
+    }
+  }
+
+  h5{
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    @include resp-md{
+      font-size: 1.2rem;
+    }
+  }
+
+  .figure-overlay{
+    background: none;
+  }
+
+  .grid-x{
+    margin: -0.9375rem;
+    @media print, screen and (min-width: 64em){
+      // defines height for content (33%)
+      height: auto;
+    }
+    @include resp-96{
+      height: 100%;
+    }
+  }
+}
+
+.sections-content_grid-y{
+
+  .textbox-title{
+    @include resp-96{
+      width: calc(83.33333% - 1.875rem);
+    }
+  }
+  .textbox-content{
+    @include resp-96{
+      width: calc(83.33333% - 1.875rem);
+    }
+  }
+}
+
+.textbox-title{
+  background-color: #7f9db9;
+  padding-top: 0.8rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2.5rem;
+  h4{
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: 'Share', cursive;
+    color: #fefefe;
+    line-height: 1;
+    @include resp-md{
+      font-size: 1.5625rem;
+    }
+  }
+
+}
+
+.textbox-content{
+  background-color: #f8f8f8;
+  border: 1px #ccc solid;
+  border-top: 0px;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+  @include resp-md{
+    padding-left: 4.5rem;
+    padding-right: 2.5rem;
+  }
+
+  h4{
+    color: #333;
+  }
+  p{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #666;
+    font-size: 15px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  // contact-form
+  textarea{
+      height: 12rem;
+    @include resp-lg{
+      height: 15rem;
+    }
+  }
+
+  input{
+    width: 100%;
+  }
+
+  label{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  .cell{
+    margin-top: 0.5rem;
+    padding: 0 0.3rem;
+  }
+}
+//moddified contact textbox
+// .textbox-content.textbox-contact{
+//   padding: 4.5rem;
+// }
