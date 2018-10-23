@@ -13,8 +13,6 @@
 ### Kurze Beschreibung:  
 
 Zu machen:
-  -Google Snipets schreiben
-  -Auf alte Browser hinweisen
   -Roland Webseite texte zeigen
   -Domain verknüpfen
   THOMAS
@@ -26,10 +24,12 @@ Zu machen:
 Probeme:
 
 Prozess:
-  -Fehler auf anderen Browsern verbessern
 
 
 Erledigt:
+  -Google Snipets schreiben
+  -Fehler auf anderen Browsern verbessern
+  -Auf alte Browser hinweisen
   -Ladezeiten -> Bilder verbessern
   -Fehler in Handy und Tablet Modus
   -Kontaktformular Bilder upload
